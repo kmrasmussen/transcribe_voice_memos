@@ -25,3 +25,5 @@ The fields of the data frame are the following
 ```
 python3 embed_transcripts.py -i ./transcripts/ -o embeddings.json -api <open_ai_api_key>
 ```
+
+The default chunk_size is 1500 and stride for chunk is 500. To change this, use parameters like this: ```-chunk 1000 -stride 300```
